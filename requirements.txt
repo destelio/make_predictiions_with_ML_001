@@ -5,5 +5,5 @@ yfinance
 pandas-datareader
 prophet
 joblib
-sklearn
+scikit-learn
 ee
