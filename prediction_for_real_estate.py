@@ -23,11 +23,11 @@ bed = st.number_input("Enter the number of bedrooms", value = 2, step = 1)
 bath  = st.number_input("Enter the number of bathrooms", value = 2, step = 1)
 
 
-pv_system_common_0 = st.number_input("Enter the number of bathrooms", value = 0, step = 1)
+pv_system_common_0 = st.number_input("Enter 0 if True, 1 if False:", value = 0, step = 1)
 
 #st.text_input
 
-pv_system_common_1 = st.number_input("Enter the number of bathrooms", value = 1, step = 1)
+pv_system_common_1 = st.number_input("Enter 1 if True, 0 if False:", value = 1, step = 1)
 
 
 '''
