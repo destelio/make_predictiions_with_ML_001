@@ -6,3 +6,4 @@ pandas-datareader
 prophet
 joblib
 sklearn
+ee
