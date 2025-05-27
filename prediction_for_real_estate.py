@@ -31,13 +31,12 @@ pv_system_common_0 = st.text_input("Enter 0 if True, 1 if False:", value = False
 pv_system_common_1 = st.number_input("Enter 1 if True, 0 if False:", value = 1, step = 1)
 
 
-'''
 if pv_system_common_0 == False:
 	pv_system_common_0 = 0
 else:
 	pv_system_common_0 = 1
 
-
+'''
 if pv_system_common_1 == True:
 	pv_system_common_1 = 1
 else:
