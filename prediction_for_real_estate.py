@@ -36,12 +36,8 @@ if pv_system_common_0 == False:
 else:
 	pv_system_common_0 = 1
 
-'''
-if pv_system_common_1 == True:
-	pv_system_common_1 = 1
-else:
-	pv_system_common_1 = 0
-'''
+
+
 
 X = [bed, bath, pv_system_common_0, pv_system_common_1]
 
