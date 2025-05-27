@@ -23,13 +23,14 @@ bed = st.number_input("Enter the number of bedrooms", value = 2, step = 1)
 bath  = st.number_input("Enter the number of bathrooms", value = 2, step = 1)
 
 
-pv_system_common_0 = st.text_input("Enter the FV System indicator No", value = False)
+pv_system_common_0 = st.number_input("Enter the number of bathrooms", value = 0, step = 1)
 
 #st.text_input
 
-pv_system_common_1 = st.text_input("Enter the FV System indicator No", value = True)
+pv_system_common_1 = st.number_input("Enter the number of bathrooms", value = 1, step = 1)
 
 
+'''
 if pv_system_common_0 == False:
 	pv_system_common_0 = 0
 else:
@@ -40,7 +41,7 @@ if pv_system_common_1 == True:
 	pv_system_common_1 = 1
 else:
 	pv_system_common_1 = 0
-
+'''
 
 X = [bed, bath, pv_system_common_0, pv_system_common_1]
 
